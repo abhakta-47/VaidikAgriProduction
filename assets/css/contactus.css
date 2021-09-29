@@ -2,29 +2,49 @@
   color: #37716d;
 }
 
-form {
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffecba), to(rgba(55, 113, 109, 0.44)));
-  background: linear-gradient(180deg, #ffecba 0%, rgba(55, 113, 109, 0.44) 100%);
-  border-radius: 23.1678px;
+.bg-overlay {
+  background: url("/assets/img/contactus/Rectangle 137.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
 }
 
-form input,
-form select {
+#content {
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
   background: #ffffff;
-  border-radius: 12.7088px;
+  border-radius: 19px;
 }
 
-form button {
-  background: #ffffff;
-  border: 4.19643px solid #37716d;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 8.39286px;
+#content form input,
+#content form select {
+  background: #f8f8f8;
+  border-radius: 5px;
+  border-width: 0;
 }
 
-#decorators .top-right {
+#content form button {
+  background: #37716d;
+  -webkit-box-shadow: 0px 4px 50px rgba(0, 102, 101, 0.17);
+          box-shadow: 0px 4px 50px rgba(0, 102, 101, 0.17);
+  border-radius: 10px;
+  color: #fa8b17;
+}
+
+#content #contact-info {
+  background: #000000;
+  border-radius: 0px 19px 19px 0px;
+  color: #fff;
+}
+
+#content #contact-info .decorator {
   position: absolute;
-  top: 0;
   right: 0;
+  bottom: 0;
+}
+
+#content #contact-info .decorator img {
+  width: 50%;
 }
 /*# sourceMappingURL=contactus.css.map */
