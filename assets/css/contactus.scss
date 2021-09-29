@@ -1,0 +1,33 @@
+.msg-2 {
+  color: #37716d;
+}
+
+form {
+  background: linear-gradient(
+    180deg,
+    #ffecba 0%,
+    rgba(55, 113, 109, 0.44) 100%
+  );
+  border-radius: 23.1678px;
+
+  input,
+  select {
+    background: #ffffff;
+    border-radius: 12.7088px;
+  }
+
+  button {
+    background: #ffffff;
+    border: 4.19643px solid #37716d;
+    box-sizing: border-box;
+    border-radius: 8.39286px;
+  }
+}
+
+#decorators {
+  .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
